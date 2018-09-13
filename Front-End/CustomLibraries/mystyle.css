@@ -1,0 +1,271 @@
+
+	.container .jumbotron, .container-fluid .jumbotron {
+		padding : 0px;
+		margin-bottom: 3px;
+		border-radius: 10px;
+	}
+	
+	.container-fluid{
+		background-color:#232935;
+	}
+
+	.jumbotron{
+		background-color: #cc0000;
+	}
+	
+	.btn{
+		border-radius: 50px;
+		padding: 0 4px 0 4px;
+		margin:15px 0 0 0;
+		font-weight: 600;
+	}
+	
+	.btn-default{
+		width: 95%;
+		color: #CC0000;
+	}
+	
+	.btn-success{
+		background-color:#024e02;
+		box-shadow: 4px 5px 12px #007f00;
+		
+	}
+
+	.btn-danger{
+		background-color:#CC0000;
+	}
+
+	.btn-default:focus,.btn-default:active,.btn-default:hover {
+		background-color: #cc0000;
+		color:#FFFF;
+	}
+	
+	.thumbnail,.rounded {
+		padding: 0px; 
+	}
+	
+	.img-responsive, .rounded a>img, .rounded>img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.contentName {
+		background-color: #cc0000;
+		width:80%;
+		color:#000;
+		overflow: hidden;
+		bottom: 10px;
+		position: absolute;
+		border-radius: 0 30px 30px 0;
+		text-align: left;
+	}
+	
+	.contentName p {
+		margin:0;
+		font-size: 70%;
+		white-space: nowrap; 
+		overflow: hidden;
+		text-overflow: ellipsis; 
+		font-weight: bold;
+	}
+	
+	.col-sm-3, .col-xs-3 {
+		padding: 12px;
+	}
+
+	.col-sm-4, .col-xs-4 {
+		padding:0px;
+	}
+
+	pre{
+		padding: 0px;
+		font-size: 9px;
+		background-color:inherit;
+		color: #F3E6BF;
+		border-style: none;
+		font-family: century gothic;
+	}
+
+	.header{
+		box-shadow: 0px 5px 5px -5px grey;
+		z-index: 99;
+		color:Ivory;
+		font-size:22px;
+		overflow: hidden;
+		left: 0;
+		right: 0;
+		display: block;
+		background-color: #4c0000;
+		padding:30px 0 4px 0;
+	}
+	
+	.more{
+		margin:0;
+		background-color:#232935;
+	}
+	
+	.itemName {
+		margin-top:14px;
+		text-overflow: ellipsis;
+		color: Ivory;
+		font-weight: bold;
+	}
+	
+	.caption{
+		color:#F3E6BF;
+		padding:5px 0 0 0;
+	}
+	
+	.pager li>a{
+		padding: 0px;
+		padding-right: 3px;
+		background-color: #232935;
+		color: Ivory;
+		border:none;
+	}
+	
+	.pager li>a:hover{
+		background-color: #b20000;
+	}
+	
+	.sidenav {
+		height: 75%;
+		width: 0;
+		position: fixed;
+		z-index: 99;
+		top: 23px;
+		left: 0;
+		background-color: #CC0000;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 10px;
+	}
+	
+	a, a:hover{
+		text-decoration: none;
+		color:Ivory;
+	}
+	
+	.sidenav a {
+		padding: 0px 0px 0px 5px;
+		margin-top:28px;
+		text-decoration: none;
+		font-size: 15px;
+		color: Ivory;
+		display: block;
+		transition: 0.3s;
+	}
+
+	.sidenav a:hover {
+		background-color: #4c0000;
+	}
+
+	.closebtn {
+		position: absolute;
+		top: -30px;
+		right: 5px;
+		font-size: 25px;
+	}
+
+	@media screen and (max-height: 450px) {
+	  .sidenav {padding-top: 15px;}
+	  .sidenav a {font-size: 16px;}
+	}
+
+	.fa-bars, .fa-home, .fa-user-circle-o, .fa-search, .fa-arrow-circle-left{
+		font-size:25px;
+		/* padding: 0 6px 0 5px; */
+		padding: 0 5px 0 0px;
+	}
+	
+	.fa-desktop, .fa-caret-square-o-right, .fa-film, .fa-video-camera, .fa-question-circle, .fa-outdent, .fa-eye{
+		color:Ivory;
+		padding: 0 5px 0 0px;
+	}
+	
+	.menubar{
+		z-index: 99;
+		position:fixed;
+		background-color:#232935;
+		color: ivory;
+		overflow: hidden;
+		left: -10px;
+		right: 0;
+	}
+	
+	@font-face {
+	   font-family: century gothic;
+	   src: url(Century_Gothic.ttf);
+	}
+
+	* {
+	   font-family: century gothic;
+	}
+	
+	hr{
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	
+	.coloredBackgroundName{
+		background-color:#20c583;
+		border-radius: 6px;
+		color:#000;
+		padding: 0px 4px 0 2px;	
+	}
+	
+	.color{
+		color: #e50000;
+	}
+	
+	.modal form > input[type=text]{
+		width: 75%;
+		border-radius: 8px;
+		padding: 0 0 0 5px;
+	}
+	
+	.modal {
+		display: none; /* Hidden by default */ 
+		/* z-index: 100; /* Sit on top */
+		position: relative;
+		text-align:center;
+		padding: 7px 0 7px 0;
+	}
+	
+	.animate {
+		-webkit-animation: animatezoom 0.6s;
+		animation: animatezoom 0.6s
+	}
+
+	::placeholder {
+		opacity: 0.5; /* Firefox */
+		padding:0 0 0 4px;
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	   opacity: 0.5;
+	   padding:0 0 0 4px;
+	}
+
+	::-ms-input-placeholder { /* Microsoft Edge */
+	   opacity: 0.5;
+	   padding:0 0 0 4px;
+	}
+
+	@-webkit-keyframes animatezoom {
+		from {-webkit-transform: scale(0)} 
+		to {-webkit-transform: scale(1)}
+	}
+		
+	@keyframes animatezoom {
+		from {transform: scale(0)} 
+		to {transform: scale(1)}
+	}
+	
+	video[poster]{
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+	}
+	
