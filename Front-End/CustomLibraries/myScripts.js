@@ -40,7 +40,7 @@
 					$(this).parent().parent().parent().css("background-image","url("+ ShakeR +")");
 				});
 			});
-			
+			/*
 			$(document).ready(function(){
 				$(document).mouseup(function(e){
 					var container = $("#mySidenav");
@@ -53,6 +53,7 @@
 					}
 				});
 			});
+			*/
 			
 			function openNav() {
 				document.getElementById("mySidenav").style.width = "176px";
